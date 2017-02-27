@@ -66,8 +66,8 @@ def fill(to_store, store):
             
 
 if __name__ == "__main__":
-    PATH = "C:/Users/Piotr/Desktop/testpics"
-    STORES = ["D://", "C://Users/Piotr/Desktop"]
+    PATH = ""
+    STORES = []
 
     to_store, store_sizes = prepare(PATH, STORES)
     order(to_store, store_sizes)
